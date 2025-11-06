@@ -326,7 +326,7 @@ footer a{
 @media (max-width: 425px) {
     
     header{
-        height: 100vh;
+        min-height: 100vh;
     }
     h1{
         font-size: 30px;
