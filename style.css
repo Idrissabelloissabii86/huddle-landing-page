@@ -324,11 +324,18 @@ footer a{
 
 }
 @media (max-width: 425px) {
+    
+    header{
+        height: auto;
+    }
     h1{
         font-size: 30px;
     }
     h2{
         font-size: 20px;
+    }
+    .main-card{
+        margin: 25px 25px;
     }
     .get-start{
         padding: 10px 30px;
@@ -344,5 +351,15 @@ footer a{
         padding: 30px;
         left: 10vw;
         bottom: -80px;
+    }
+    .header-section-img{
+        /* width: 150px; */
+    }
+    .header-container{
+        margin: 0;
+        padding: 0 20px 20px 20px;
+    }
+    .card-flottante h2{
+        font-size: 20px;
     }
 }
